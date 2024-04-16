@@ -1,0 +1,12 @@
+/*DEVELOPER: your name here, IS117-xxx, Semester, Year */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}

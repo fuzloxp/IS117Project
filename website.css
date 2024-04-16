@@ -1,0 +1,98 @@
+/*DEVELOPER: your name here, IS117-xxx, Semester, Year */
+.carousel-control-prev,
+.carousel-control-next {
+    filter: brightness(80%);
+    opacity: 0.7;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 200%;
+}
+.carousel-item img {
+    margin: 0 auto;
+}
+.carousel-item {
+    text-align: center;
+}
+.container2 {
+    padding: 5px;
+    width: 60%;
+}
+.titlestuff {
+    display: flex;
+}
+.titlestuff img {
+    width: 100px;
+}
+.carandcard {
+    margin-bottom: 20%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+p {
+    margin: 40px 0;
+}
+.contentcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentcontainer img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.content {
+    border: 2px solid white;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin: 40px 0;
+}
+body {
+    color: white;
+    background-color: black;
+}
+.card {
+    background-color: mediumpurple;
+}
+.card-body {
+    color: black;
+}
+.contactinfo {
+    text-align: center;
+    padding: 60px;
+    border: 2px solid white;
+}
+.contactform {
+    padding: 60px;
+}

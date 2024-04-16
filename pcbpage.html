@@ -1,0 +1,93 @@
+<!-- DEVELOPER: your name here, IS117-xxx, Spring 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="website.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="titlestuff">
+        <div class="row">
+            <a class="navbar-brand" href="homepage.html"><img src="images/logo.png" alt="company logo"></a>
+        </div>
+        <div class="row pt-3">
+            <h1>Fuzlo's Guide to Keyboards</h1>
+        </div>
+    </div>
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex flex-column justify-content align-items-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav text-align-center">
+                        <li class="nav-item dropdown mx-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Internals
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="pcbpage.html">PCB/Mounting</a>
+                                <a class="dropdown-item" href="switchespage.html">Switches/Stabs</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item mx-5">
+                            <a class="nav-link" href="cosmeticspage.html">Cosmetics</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link" href="modspage.html">Modifications</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    <div class="contentcontainer">
+        <img src="images/pcb1.jpg" alt="PCB pictures">
+        <div class="content">
+            <h2>PCB/Mounting</h2>
+            <p>
+                A PCB is the nervous system of a keyboard. It is a circuit board that lays under the keycaps and case and
+                lets each keystroke be registered on the device you are using it on. The format of the PCB also accommodates
+                for the size of the keyboard. The PCB can also house certain cosmetics such as lighting. Another major
+                aspect is the mounting of the keyboard. The mounting style of a keyboard determines how a keyboard will feel
+                and also look. Some mounting styles use screws and nuts, while others use rubber bands to make for a softer
+                and less rattle filled typing sound.
+            </p>
+        </div>
+    </div>
+</div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Fuzail Shahzad, 2024 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+ </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
